@@ -1,13 +1,10 @@
 # Scroll Quest Prototype (Runnable Framework)
 
 ## Run
-Use any static file server in `prototype/`:
-
 ```bash
 cd prototype
 python3 -m http.server 8000
 ```
-
 Open `http://localhost:8000`.
 
 ## Included
@@ -16,6 +13,7 @@ Open `http://localhost:8000`.
 - Coin pickup
 - Goal trigger + chapter complete result panel
 - HUD (hearts, coins)
+- Generated art assets (SVG): player, coin, tile, goal banner
 
 ## Purpose
-This is a minimal playable framework to validate flow before Week 2 full implementation.
+A minimal playable framework with generated placeholder art to preview gameplay feel and visual direction.
